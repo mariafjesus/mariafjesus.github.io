@@ -1,0 +1,40 @@
+.word-container {
+    height: 50px;
+    overflow: hidden;
+}
+.word {
+    display: block;
+    height: 100%;
+    padding-bottom: 15px;
+    animation: spin_words 8s infinite;
+}
+
+@keyframes spin_words {
+    20% {
+        transform: translateY(-5%);
+    }
+    30% {
+        transform: translateY(-105%);
+    }
+    35% {
+        transform: translateY(-100%);
+    }
+    45% {
+        transform: translateY(-215%);
+    }
+    50% {
+        transform: translateY(-200%);
+    }
+    60% {
+        transform: translateY(-312%);
+    }
+    65% {
+        transform: translateY(-300%);
+    }
+    75% {
+        transform: translateY(-412%);
+    }
+    80% {
+        transform: translateY(-400%);
+    }
+}
